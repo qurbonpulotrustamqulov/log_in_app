@@ -1,0 +1,48 @@
+name: log_in_app
+description: "A new Flutter project for portfolio."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0-333.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  #for icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  #for lints
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    #for icons
+    - assets/icons/
+
+  fonts:
+    #Font Family Jost
+    - family: Jost
+      fonts:
+        - asset: assets/fonts/jost/Jost-SemiBold.ttf
+          weight: 600
+
+    #Font Family Montserrat
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/montserrat/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/montserrat/Montserrat-Regular.ttf
+          weight: 400
