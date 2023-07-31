@@ -9,6 +9,7 @@ import 'package:log_in_app/views/widgets/remember.dart';
 import 'package:log_in_app/views/widgets/rich_text4.dart';
 import 'package:log_in_app/views/widgets/sign_in.dart';
 
+
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 
